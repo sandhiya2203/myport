@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contact</title>
+    </head>
+    <style>
+         @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+        .main__bg {
+            background-image: linear-gradient(-60deg, #a880a3 50%, #82a8ec 50%);
+            animation: slide 3s ease-in-out infinite alternate;
+            position: fixed;
+            top: 0;
+            bottom: 0;
+            left: -50%;
+            right: -50%;
+            opacity: 0.5;
+            z-index: -1;
+        }
+
+        .layer1 {
+            animation-direction: alternate-reverse;
+            animation-duration: 4s;
+        }
+
+        .layer2 {
+            animation-duration: 5s;
+        }
+
+        @keyframes slide {
+            0% {
+                transform: translateX(-25%);
+            }
+
+            100% {
+                transform: translateX(25%);
+            }
+          }
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+
+
+/* Global Styles */
+
+body {
+    font-family: Arial, sans-serif;
+    text-decoration: none;
+    
+}
+
+/* Header */
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px auto;
+    padding: 0 20px;
+}
+
+
+nav ul li {
+  
+  display: inline-block;
+  padding: 10px 20px;
+  position: sticky;
+}
+nav ul li a {
+  color:black;
+  position:relative;
+  padding: 5px 0;
+}
+nav ul li a:hover {
+  color: #fd4766;
+}
+nav ul li a:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 0;
+  height: 3px;
+  background: #fd4766;
+  transition: 0.3s;
+  bottom: 0;
+}
+nav ul li a:hover:after {
+  width: 100%;
+}
+
+
+.text{
+    text-decoration: none;
+}
+.contact{
+            
+            margin-top: 40px;
+            margin-left:300px;
+                        
+                        padding-top: 100px;
+                        padding-bottom:200px;
+                       padding-right: 400px;
+                       padding-left:200px;
+                       background-repeat: no-repeat;
+                     letter-spacing: 4px;
+              display: inline-block;
+              margin-bottom: 400px;
+              color: rgb(85, 15, 248);
+             
+             
+              
+                    font-size: 20px;
+                    font-weight:bold;
+                   
+                    }
+                   
+                    .psk{
+                        
+                        font-family: 'Times New Roman', Times, serif;
+                        color: rgb(15, 1, 6);
+                    }
+
+
+
+
+ </style>
+
+    <body>
+        <div class="main__bg"></div>
+        <div class="main__bg layer1"></div>
+        <div class="main__bg layer2"></div>
+        
+       
+          
+
+
+        
+    </style>
+
+    <body>
+        <div class="hero">
+            <nav>
+           <ul>
+            <li><a class="text" href="port.html">Home</a></li>
+             <li><a class="text"  href="about.html">About</a></li>
+             <li><a class="text"  href="project.html">Project</a></li>
+             <li><a class="text"   href="skill.html">Skills</a></li>
+             <li><a class="text"  href="contact.html">Contact</a></li>
+            </ul>
+           <a  class="text" href="SANDHIYA-G-FlowCV-Resume-20240416.pdf" class="btn">Resume</a>
+          </nav>
+        <div class="contact">
+            <p class="psk"><br>E-mail:</p>
+         <div><b>sandhiyag986@gmail.com</b></div>  
+
+        <p class="psk">Phone:</p>
+        <div><b>9345137830</b></div> 
+        </div>
+
+
+    </body>
+</html>
+          
+           

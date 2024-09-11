@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+        <title>Project</title>
+        <link rel="stylesheet" href="styleport.css">
+       
+    </head>
+    
+      
+       
+<style>
+body {
+    font-family: Arial, sans-serif;
+    text-decoration: none;
+    
+}
+
+/* Header */
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px auto;
+    padding: 0 20px;
+}
+
+
+nav ul li {
+  
+  display: inline-block;
+  padding: 10px 20px;
+  position: sticky;
+}
+nav ul li a {
+  color:black;
+  position:relative;
+  padding: 5px 0;
+}
+nav ul li a:hover {
+  color: #fd4766;
+}
+nav ul li a:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 0;
+  height: 3px;
+  background: #fd4766;
+  transition: 0.3s;
+  bottom: 0;
+}
+nav ul li a:hover:after {
+  width: 100%;
+}
+
+.about-info h2 {
+    font-size: 10;
+    margin-bottom: 20px;
+color:brown;
+}
+.about-info h1{
+    font-size:40;
+    color:maroon;
+
+}
+    .about-info {
+    margin:0;
+    display:flex;
+    align-items: justify;
+    
+    text-align: right;
+    flex-direction: column;
+        text-align: center;
+        line-height:50px;
+        
+}
+.text{
+    text-decoration: none;
+}
+
+
+.about-info p {
+    font-size: 20px;
+    margin: 0;
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    display:inline-flex;
+    
+}
+
+ </style>
+
+    <body>
+        <div class="main__bg"></div>
+        <div class="main__bg layer1"></div>
+        <div class="main__bg layer2"></div>
+        
+        <nav>
+            <ul >
+             <li><a class="text" href="port.html">Home</a></li>
+              <li><a class="text" href="about.html">About</a></li>
+              <li><a  class="text" href="project.html">Project</a></li>
+              <li><a class="text" href="skill.html">Skills</a></li>
+              <li><a class="text" href="contact.html">Contact</a></li>
+             </ul>
+            <a  class="text" href="SANDHIYA-G-FlowCV-Resume-20240416.pdf" class="btn">Resume</a>
+           </nav>
+       
+       <div class="about-info">
+        <p><h2>Hardware Trojan Detection using Deep Learning</h2></p>
+        <p>Developed  a robust , accurate and efficient deep learning model that can classify integrated circuits as "Trojan Free" or "Trojan Infected" using various circuit metrics and power values.
+           This aims to enhance the security of integrated circuits by identifying potentially malicious modifications during the manufacturing process.
+            </p>
+        <p><h2>Phishing Attack Detection using Deep Learning</h2></p>
+        <p>Developed a phishing attack detection system
+            utilizing machine learning algorithms to analyze
+            accuracy and processing techniques.The project
+            aims to identify and mitigate potential phishing
+            threats before they impact users.</p>
+            <p><h2>Machine Overheat Detection with Alert
+                System</h2></p>
+        <p>Using temperature sensors and NodeMCU to
+            monitor equipment in real-time.The system
+            triggers when temperature thresholds are
+            exceeded,thereby preventing equipment
+            damage and safety.</p>
+
+        
+    </div></body>
+</html>
